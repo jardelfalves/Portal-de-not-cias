@@ -23,7 +23,7 @@
 
 body {
   font: var(--text);
-  color:var(--text-color-primary);
+  color: var(--text-color-primary);
   background-color: var(--bg-color);
 }
 
@@ -32,12 +32,16 @@ a {
   color: inherit;  
 }
 
-a :hover {
+a:hover {
   color: var(--brand-color-light);
 }
 
 h1, h2, h3 {
   font: inherit;
+}
+
+img {
+  max-width: 100%;
 }
 
 .container {
@@ -46,12 +50,6 @@ h1, h2, h3 {
   margin-inline: auto;
 }
 
-/* utility-first */ 
-
-.grid {
-  display: grid;
-}
-
-.grid-flow-col {
-  grid-auto-flow: column;
+main {
+  margin-top: 40px;
 }
