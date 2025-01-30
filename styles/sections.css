@@ -69,11 +69,11 @@ section header {
   grid-area: weekly;
 
   &>div {
-    grid-template-columns: repeat(4, 290px);
+    grid-template-columns: repeat(4, 1.2fr);
   }
 
   img {
-    height: 140px;
+    height: 160px;
   }
 
   figure {
